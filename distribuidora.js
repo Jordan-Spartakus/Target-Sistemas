@@ -36,8 +36,9 @@ for(i = 0; i <arr.length; i++){
 }
 media = parseFloat((d/b).toFixed(2))
 for(i=0; i < arr.length; i++){
-    if(arr[i]>media)
+    if(arr[i]>media){
     e++
+    }
 }
 // Solução
 console.log(`Maior valor no mês: ${maior}`)
