@@ -11,10 +11,8 @@ for(i = 0; i < jsonDados.length; i++){
     if(a > 0){
         b++
         c = parseFloat(jsonDados[i].valor)
-           
-    }
-     arr.push(c)
-    
+        arr.push(c)   
+    }    
 }
 // Maior e Menor
 var maior = 0;
